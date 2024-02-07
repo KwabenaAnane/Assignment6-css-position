@@ -1,0 +1,289 @@
+* {
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1180px;
+  padding-left: 100px;
+  justify-content: space-between;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav > li {
+  margin-left: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+.nav > li > a {
+  text-decoration: none;
+}
+
+.logo {
+  align-items: center;
+  text-decoration: none;
+}
+.logo-img {
+  padding-right: 10px;
+  display: block;
+  margin-right: 20px;
+}
+
+.logo-text {
+  color: 173A56;
+  font-size: 24px;
+  justify-content: start;
+}
+
+.signup-btn {
+  background-color: orange;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 10px 15px;
+  box-shadow: none;
+  border: none;
+}
+.signin-btn {
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 10px 15px;
+  margin: 20px;
+}
+.signup-btn:hover {
+  border: 2px solid blue;
+}
+.signin-btn:hover {
+  border: 2px solid blue;
+}
+.section__header {
+  width: 1126px;
+  height: 496px;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  align-items: center;
+  padding-left: 90px;
+}
+
+.header__info {
+  width: 518px;
+  height: 331px;
+}
+.header__image3 {
+  width: 605;
+  height: 496;
+}
+.play_btn {
+  color: orange;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.header_btn {
+  background-color: FF9900;
+  border-radius: 5px;
+  background-color: orange;
+  text-align: center;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  margin-top: 30px;
+}
+.header_getstarted {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+h1 > p {
+  font-size: 18px;
+  font-weight: normal;
+  width: 458px;
+  height: 95px;
+  padding: 20px;
+}
+
+p {
+  color: #544837;
+}
+.feature {
+  max-width: 2211px;
+  height: 543px;
+  width: 100%;
+  margin-bottom: -100px;
+  padding-left: 90px;
+}
+.feature_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature__text {
+  max-width: 539px;
+  width: 100%;
+  height: 108;
+}
+.card_button {
+  position: relative;
+}
+.card_button_signup {
+  border-radius: 5px;
+  background-color: orange;
+  text-align: center;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  margin-top: 20px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%, -40%);
+}
+.card {
+  display: flex;
+}
+.card_items {
+  width: 240px;
+  height: 178;
+}
+h3 {
+  color: #2f281e;
+  font-size: 22;
+}
+h3 > p {
+  color: #544837;
+  font-size: 16;
+}
+
+.page1 {
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  height: 579px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.page1__info {
+  max-width: 480px;
+  width: 100%;
+  height: 531px;
+  line-height: 2;
+}
+
+.page1__img2 {
+  max-width: 400px;
+  width: 100%;
+  height: 500px;
+}
+
+.page2 {
+  display: flex;
+  margin-top: 30px;
+  max-width: 1110px;
+  width: 100%;
+  height: 579px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.page2_info {
+  max-width: 484px;
+  width: 100%;
+  height: 427px;
+  line-height: 2;
+}
+
+.page2_img {
+  max-width: 521px;
+  width: 100%;
+  height: 520px;
+  padding-left: 20px;
+}
+
+.page3 {
+  display: flex;
+  max-width: 1110px;
+  width: 100%;
+  height: 579px;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 50px; */
+}
+.page3_info {
+  max-width: 484px;
+  width: 100%;
+  height: 531px;
+  line-height: 2;
+}
+
+.page3__img {
+  max-width: 400px;
+  width: 100%;
+  height: 500px;
+}
+
+li > span {
+  color: orange;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  margin: 50px;
+  width: 1109px;
+  height: 308px;
+}
+.footer {
+  display: flex;
+  padding-top: 10%;
+}
+.footer_div {
+  display: flex;
+  justify-content: end;
+}
+.footer_div1 {
+  width: 200px;
+  height: 205px;
+  margin-right: 20px;
+}
+.footer_div2 {
+  margin-right: 20px;
+}
+.footer__signup_button {
+  border-radius: 5px;
+  background-color: orange;
+  text-align: center;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  margin-top: 25px;
+}
+.searchbar {
+  background-color: white;
+  margin-top: 10px;
+}
